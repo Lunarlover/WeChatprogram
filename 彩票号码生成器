@@ -1,0 +1,52 @@
+<!--index.wxml-->
+<view class="box">
+  <view class="title">彩票生成器</view>
+  <view class="title1">电科19-1李琪201923010112</view>
+
+  <view>产生的彩票数列为：</view>
+
+  <view wx:for="{{rand}}">{{item}}</view>
+  <view>彩票号码为：{{sum}}</view>
+
+  <button type="primary" bindtap="newRand">产生新的彩票号</button>
+
+</view>
+
+<view>打败焦虑最好的办法就是行动。</view>
+
+
+// index.js
+var rand,sum;
+function createRand(){
+  rand=[];
+  for(var i=0;i<7;i++){
+    var r=0;
+    while(r==0){
+      r=parseInt(Math.random() * 32);              
+    }                      
+    r=(r/Math.pow(10,2)).toFixed(2).substr(2)
+    rand[i]=r;
+
+    for (var j=0;j<i;j++){
+      if (rand[j]==r){i=i-1;}
+    }
+    console.log(rand[i]);
+  }
+};
+
+Page({
+  onLoad:function(){
+    createRand();
+    this.setData({
+      rand:rand,
+      sum:rand
+    })
+  },
+  newRand:function(){
+    createRand();
+    this.setData({
+      rand:rand,
+      sum:rand
+    })
+  }
+})
