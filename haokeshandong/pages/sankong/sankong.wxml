@@ -1,0 +1,39 @@
+<!--pages/sankong/sankong.wxml-->
+<view class="selection">
+       <view class="banner-swiper">
+       <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" current='{{swiperCurrent}}' 
+indicator-color="{{beforeColor}}" indicator-active-color="{{afterColor}}" circular='{{circular}}' 
+previous-margin="{{previousmargin}}" next-margin="{{nextmargin}}" bindchange="swiperChange" >
+       <block wx:for="{{arr}}" wx:key="key"> 
+          <swiper-item>
+            <image src="{{item.images}}" class="slide-image{{index == swiperCurrent ? ' active' : ''}}" 
+bindchange="chuangEvent" id="{{index}}"></image>
+          </swiper-item>
+       </block> 
+    </swiper>
+    </view>
+</view>
+<view class="box">
+<view class="text" >山东济宁曲阜是孔子的故乡。孔夫子生前在此开坛授学，创立儒家文化，为此后2000多年的中国历史深深地打上了儒学烙印。孔府、孔庙、孔林，统称曲阜“三孔”，是中国历代纪念孔子，是历代儒客朝拜之圣地。</view>
+</view>
+<navigator url="/page/kongfu">
+<view class="li">
+<image src="images/kong.png"class="myleft" style="width: 139rpx; height: 97rpx; display: block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"></image>
+<view class="mycenter">孔府</view>
+<image src="images/shejian.png"class="myright" style="width: 139rpx; height: 97rpx; display: block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"></image>
+</view>
+</navigator>
+<navigator url="/page2/kongmiao">
+<view class="li">
+<image src="images/kongmiao.png"class="myleft" style="width: 141rpx; height: 122rpx; display: block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"></image>
+<view class="mycenter">孔庙</view>
+<image src="images/shejian.png"class="myright" style="width: 141rpx; height: 111rpx; display: block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"></image>
+</view>
+</navigator>
+<navigator url="/page3/konglin">
+<view class="li">
+<image src="images/konglin.png"class="myleft" style="width: 143rpx; height: 127rpx; display: block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"></image>
+<view class="mycenter" >孔林</view>
+<image src="images/shejian.png"class="myright" style="width: 146rpx; height: 127rpx; display: block; box-sizing: border-box; left: NaNrpx; top: NaNrpx"></image>
+</view>
+</navigator>

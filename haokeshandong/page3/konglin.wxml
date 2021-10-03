@@ -1,0 +1,7 @@
+<!--page3/konglin.wxml-->
+<view class="title">孔林简介</view>
+<view class="box">
+<view class="text">孔林，又称至圣林，位于山东省曲阜市城北1.5千米处，是孔子及其后裔的家族墓地。</view></view>
+<image src="images/01.jpg"></image>
+<image src="images/02.webp"></image>
+<image src="images/03.webp"></image>

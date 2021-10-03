@@ -1,0 +1,15 @@
+/* page1/kongfu.wxss */
+.box{
+  margin: 20px;
+  padding: 20px;
+  border: 1px;
+  background-color: skyblue;
+}
+.text{
+  text-indent: 30px;
+}
+.title{
+  color: red;
+  text-align: center;
+  text-size-adjust: 30px;
+}

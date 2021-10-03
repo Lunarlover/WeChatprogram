@@ -1,0 +1,23 @@
+<!--pages/jiaxiang/jiaxiang.wxml-->
+<image src="images/heze.jpg"mode="scaleToFill"></image>
+<view>我的家乡</view>
+<view class="box">
+<view class="text">菏泽，旧时称为“曹州”，清朝雍正十三年(1735年)更改为“菏泽”。被称为“天下之中”的菏泽不仅是一座历史悠久，名人辈出的城市，更是一座文化底蕴深厚的城市，是我国著名的牡丹之都、武术之乡、书画之乡、戏曲之乡、民间艺术之乡。</view>
+<view class="text">菏泽是一个经济水平并不高的小城市，但小城市的风光也异常动人。这里新建的高楼林立，也有淳朴的农村小巷；有快捷方便的都市，也有悠哉快活的乡村；有新潮时髦的新事物，也有令人回味的老味道。</view>
+</view>
+
+<view class="selection">
+<view class="header"><text>文化展示</text></view>
+<view class="content">
+<view class="content-item"><image src="images/hua.jpg"></image><view>  <text class="content-item-text">牡丹</text> </view></view>
+<view class="content-item"><image src="images/bole.jpg"></image><view>  <text class="content-item-text">伯乐相马</text> </view></view>
+<view class="content-item"><image src="images/lujin.jpg"></image><view>  <text class="content-item-text">鲁锦</text> </view></view>
+<view class="content-item"><image src="images/jiangdatou.jpg"></image><view>  <text class="content-item-text">成武酱大头</text> </view></view>
+</view>
+</view>
+<view class="box">
+<view class="title">【牡丹之都】</view>
+<view class="text">菏泽是世界上面积最大的牡丹繁育、栽培、科研、加工、出口和观赏基地，2002年通过国家组织论证的“菏泽牡丹原产地注册”，2006年被评为“中国牡丹城”，2012年被命名为“中国牡丹之都”。菏泽牡丹品种繁多，花色奇丽，自古就有“曹州牡丹甲天下”之誉。</view>
+<view class="title">【伯乐相马】</view>
+<view class="text">伯乐，本名孙阳，春秋时代人。由于他对马的研究非常出色，人们便忘记了他本来的名字，干脆称他为伯乐。菏泽成武便是伯乐的故乡。伯乐相马的美谈也流传在成武的大街小巷。</view>
+</view>

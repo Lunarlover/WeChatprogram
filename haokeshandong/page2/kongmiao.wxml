@@ -1,0 +1,7 @@
+<!--page2/kongmiao.wxml-->
+<view class="title">孔庙简介</view>
+<view class="box">
+<view class="text">孔庙，是孔子死后的第二年，即公元前478年，由鲁哀公孔子生前的故宅基础上改建而成的，后经历代王朝，特别是唐宋，以后不断扩建和整修，规模越来越大，现已成为占地六百多亩的古代杰出建筑。</view></view>
+<image src="images/01.jpg"></image>
+<image src="images/02.jpg"></image>
+<image src="images/03.jpg"></image>

@@ -1,0 +1,17 @@
+<!--pages/taishan/taishan.wxml-->
+<view class="banner-swiper">
+    <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" current='{{swiperCurrent}}' 
+indicator-color="{{beforeColor}}" indicator-active-color="{{afterColor}}" circular='{{circular}}' 
+previous-margin="{{previousmargin}}" next-margin="{{nextmargin}}" bindchange="swiperChange" >
+       <block wx:for="{{arr}}" wx:key="key"> 
+          <swiper-item>
+            <image src="{{item.images}}" class="slide-image{{index == swiperCurrent ? ' active' : ''}}" 
+bindchange="chuangEvent" id="{{index}}"></image>
+          </swiper-item>
+       </block> 
+    </swiper>
+  </view> 
+  <view class="box">
+  <view class="text">泰山贯穿山东中部，泰安市境内，绵亘于泰安市、济南市之间，古称“岱山”、“岱宗”，春秋时改称“泰山”。泰山前邻孔子故里曲阜，背依泉城济南。</view>
+  <view class="text">泰山，又名岱山、岱宗、岱岳、东岳、泰岳，为中国著名的五岳之一，有“五岳之首”、“五岳之长”、“五岳之尊”、“天下第一山”之称。游泰山看四个奇观：泰山日出、云海玉盘、晚霞夕照、黄河金带。</view>
+  </view>
